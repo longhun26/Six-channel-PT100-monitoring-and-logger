@@ -306,7 +306,7 @@ void doubleClick() {
   Serial.print("doubleClick");
   isOTA = true;
   WiFi.softAP(ssid, password);
-  WiFi.softAPConfig(local_IP, gateway, IPAddress(255, 255, 255, 0)); //创建AP 提供OTA
+  WiFi.softAPConfig(local_IP, gateway, IPAddress(255, 255, 255, 0)); //创建AP提供OTA
   Serial.print("Access Point IP address: ");
   Serial.println(WiFi.softAPIP()); // 打印 ESP32 的 AP IP 地址
     // 设置服务器处理函数
