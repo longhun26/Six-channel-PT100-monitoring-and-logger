@@ -1,0 +1,4 @@
+{
+    "workbench.cloudChanges.autoResume": "onReload",
+    "python.analysis.diagnosticMode": "workspace"
+}
